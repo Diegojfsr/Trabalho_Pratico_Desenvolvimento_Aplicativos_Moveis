@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/action_estados"
+            android:title="Estados"
+            app:showAsAction="ifRoom|collapseActionView" />
+        <item
+            android:id="@+id/action_cidades"
+            android:title="Cidade"
+            app:showAsAction="ifRoom|collapseActionView" />
+    </group>
+    <item
+        android:id="@+id/action_sair"
+        android:title="Sair"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
